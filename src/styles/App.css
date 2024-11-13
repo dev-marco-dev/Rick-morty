@@ -9,6 +9,7 @@ background-size: cover;
 
 
 
+
 }
 .container{
     max-width: 1024px;
@@ -20,6 +21,6 @@ background-size: cover;
 @media(min-width: 1024px){
     .hero{
         
-        height: 50vh;
+        height: 80vh;
     }
 }
