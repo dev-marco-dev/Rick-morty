@@ -1,0 +1,69 @@
+.CardInfo{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #d2f6a0;
+    border-radius:.7em;
+    text-align: center;
+    box-shadow: 4px 4px 0px 0px #00000095;
+    margin-bottom: 1.3em;
+}
+
+.cardInfo__title{
+    background-color: goldenrod ;
+    border-radius: .7em;
+    border: 2px solid #000000;
+    margin-bottom: .50em;
+    margin-top: .50em;
+}
+
+.cardInfo__container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+font-size: 13px;
+
+}
+
+.cardInfo__Item{
+    width: 100%;
+    
+}
+
+.cardInfo__Item-data{
+    color: black;
+    font-size: medium ;
+    background-color: goldenrod;
+    border-radius: 5px;
+    margin-top: .25em;
+    border:1.5px solid #000000;
+
+}
+
+.cardInfo__Item-title{
+    background-color: var(--body-bg);
+    border-radius: 5px;
+    border: 1.5px solid #000000;
+    
+}
+
+@media(min-width: 768px){
+    .cardInfo{
+        max-width: 400px;
+    }
+    .cardInfo__container{
+        
+        font-size: 16px;
+    }
+
+}
+
+@media(min-width: 1024px){
+    .cardInfo{
+        max-width: 600px;
+    }
+
+    .cardInfo__container {
+        font-size: 18px;
+    }
+}
